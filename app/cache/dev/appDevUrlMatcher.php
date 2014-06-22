@@ -140,6 +140,63 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
             return $this->mergeDefaults(array_replace($matches, array('_route' => 'event_homepage')), array (  '_controller' => 'Yoda\\EventBundle\\Controller\\DefaultController::indexAction',));
         }
 
+        // event
+        if (rtrim($pathinfo, '/') === '') {
+            if (substr($pathinfo, -1) !== '/') {
+                return $this->redirect($pathinfo.'/', 'event');
+            }
+
+            return array (  '_controller' => 'Yoda\\EventBundle\\Controller\\EventController::indexAction',  '_route' => 'event',);
+        }
+
+        // event_show
+        if (preg_match('#^/(?P<id>[^/]++)/show$#s', $pathinfo, $matches)) {
+            return $this->mergeDefaults(array_replace($matches, array('_route' => 'event_show')), array (  '_controller' => 'Yoda\\EventBundle\\Controller\\EventController::showAction',));
+        }
+
+        // event_new
+        if ($pathinfo === '/new') {
+            return array (  '_controller' => 'Yoda\\EventBundle\\Controller\\EventController::newAction',  '_route' => 'event_new',);
+        }
+
+        // event_create
+        if ($pathinfo === '/create') {
+            if ($this->context->getMethod() != 'POST') {
+                $allow[] = 'POST';
+                goto not_event_create;
+            }
+
+            return array (  '_controller' => 'Yoda\\EventBundle\\Controller\\EventController::createAction',  '_route' => 'event_create',);
+        }
+        not_event_create:
+
+        // event_edit
+        if (preg_match('#^/(?P<id>[^/]++)/edit$#s', $pathinfo, $matches)) {
+            return $this->mergeDefaults(array_replace($matches, array('_route' => 'event_edit')), array (  '_controller' => 'Yoda\\EventBundle\\Controller\\EventController::editAction',));
+        }
+
+        // event_update
+        if (preg_match('#^/(?P<id>[^/]++)/update$#s', $pathinfo, $matches)) {
+            if (!in_array($this->context->getMethod(), array('POST', 'PUT'))) {
+                $allow = array_merge($allow, array('POST', 'PUT'));
+                goto not_event_update;
+            }
+
+            return $this->mergeDefaults(array_replace($matches, array('_route' => 'event_update')), array (  '_controller' => 'Yoda\\EventBundle\\Controller\\EventController::updateAction',));
+        }
+        not_event_update:
+
+        // event_delete
+        if (preg_match('#^/(?P<id>[^/]++)/delete$#s', $pathinfo, $matches)) {
+            if (!in_array($this->context->getMethod(), array('POST', 'DELETE'))) {
+                $allow = array_merge($allow, array('POST', 'DELETE'));
+                goto not_event_delete;
+            }
+
+            return $this->mergeDefaults(array_replace($matches, array('_route' => 'event_delete')), array (  '_controller' => 'Yoda\\EventBundle\\Controller\\EventController::deleteAction',));
+        }
+        not_event_delete:
+
         throw 0 < count($allow) ? new MethodNotAllowedException(array_unique($allow)) : new ResourceNotFoundException();
     }
 }

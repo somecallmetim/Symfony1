@@ -26,7 +26,7 @@
     <parameter key="database_driver">pdo_mysql</parameter>
     <parameter key="database_host">127.0.0.1</parameter>
     <parameter key="database_port">null</parameter>
-    <parameter key="database_name">symfony</parameter>
+    <parameter key="database_name">yoda_event</parameter>
     <parameter key="database_user">root</parameter>
     <parameter key="database_password">wasup</parameter>
     <parameter key="mailer_transport">smtp</parameter>
@@ -1653,7 +1653,7 @@
       <argument type="collection">
         <argument type="service">
           <service class="Symfony\Component\Security\Core\Authentication\Provider\AnonymousAuthenticationProvider" public="false">
-            <argument>53a60dd3ee5ac</argument>
+            <argument>53a68148bc1eb</argument>
           </service>
         </argument>
       </argument>
@@ -1769,7 +1769,7 @@
         <argument type="service">
           <service class="Symfony\Component\Security\Http\Firewall\AnonymousAuthenticationListener" public="false">
             <argument type="service" id="security.context"/>
-            <argument>53a60dd3ee5ac</argument>
+            <argument>53a68148bc1eb</argument>
             <argument type="service" id="monolog.logger.security" on-invalid="null"/>
           </service>
         </argument>
@@ -2102,7 +2102,7 @@
         <argument key="driver">pdo_mysql</argument>
         <argument key="host">127.0.0.1</argument>
         <argument key="port">null</argument>
-        <argument key="dbname">symfony</argument>
+        <argument key="dbname">yoda_event</argument>
         <argument key="user">root</argument>
         <argument key="password">wasup</argument>
         <argument key="charset">UTF8</argument>
@@ -2162,7 +2162,9 @@
       <argument type="service">
         <service class="Doctrine\ORM\Configuration" public="false">
           <call method="setEntityNamespaces">
-            <argument type="collection"/>
+            <argument type="collection">
+              <argument key="EventBundle">Yoda\EventBundle\Entity</argument>
+            </argument>
           </call>
           <call method="setMetadataCacheImpl">
             <argument type="service">
@@ -2193,7 +2195,19 @@
           </call>
           <call method="setMetadataDriverImpl">
             <argument type="service">
-              <service class="Doctrine\ORM\Mapping\Driver\DriverChain" public="false"/>
+              <service class="Doctrine\ORM\Mapping\Driver\DriverChain" public="false">
+                <call method="addDriver">
+                  <argument type="service">
+                    <service class="Doctrine\ORM\Mapping\Driver\AnnotationDriver" public="false">
+                      <argument type="service" id="annotation_reader"/>
+                      <argument type="collection">
+                        <argument>/Library/WebServer/Documents/myproject/src/Yoda/EventBundle/Entity</argument>
+                      </argument>
+                    </service>
+                  </argument>
+                  <argument>Yoda\EventBundle\Entity</argument>
+                </call>
+              </service>
             </argument>
           </call>
           <call method="setProxyDir">

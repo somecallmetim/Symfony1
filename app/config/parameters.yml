@@ -3,7 +3,7 @@ parameters:
     database_driver: pdo_mysql
     database_host: 127.0.0.1
     database_port: null
-    database_name: symfony
+    database_name: yoda_event
     database_user: root
     database_password: wasup
     mailer_transport: smtp
