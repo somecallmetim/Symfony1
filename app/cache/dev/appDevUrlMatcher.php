@@ -169,15 +169,6 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
             return $this->mergeDefaults(array_replace($matches, array('_route' => 'event_homepage')), array (  '_controller' => 'Yoda\\EventBundle\\Controller\\DefaultController::indexAction',));
         }
 
-        // event
-        if (rtrim($pathinfo, '/') === '') {
-            if (substr($pathinfo, -1) !== '/') {
-                return $this->redirect($pathinfo.'/', 'event');
-            }
-
-            return array (  '_controller' => 'Yoda\\EventBundle\\Controller\\EventController::indexAction',  '_route' => 'event',);
-        }
-
         // event_show
         if (preg_match('#^/(?P<id>[^/]++)/show$#s', $pathinfo, $matches)) {
             return $this->mergeDefaults(array_replace($matches, array('_route' => 'event_show')), array (  '_controller' => 'Yoda\\EventBundle\\Controller\\EventController::showAction',));
@@ -225,6 +216,15 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
             return $this->mergeDefaults(array_replace($matches, array('_route' => 'event_delete')), array (  '_controller' => 'Yoda\\EventBundle\\Controller\\EventController::deleteAction',));
         }
         not_event_delete:
+
+        // event
+        if (rtrim($pathinfo, '/') === '') {
+            if (substr($pathinfo, -1) !== '/') {
+                return $this->redirect($pathinfo.'/', 'event');
+            }
+
+            return array (  '_controller' => 'Yoda\\EventBundle\\Controller\\EventController::indexAction',  '_route' => 'event',);
+        }
 
         throw 0 < count($allow) ? new MethodNotAllowedException(array_unique($allow)) : new ResourceNotFoundException();
     }
