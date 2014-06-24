@@ -27,6 +27,35 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
         $context = $this->context;
         $request = $this->request;
 
+        if (0 === strpos($pathinfo, '/css/8e49901')) {
+            // _assetic_8e49901
+            if ($pathinfo === '/css/8e49901.css') {
+                return array (  '_controller' => 'assetic.controller:render',  'name' => '8e49901',  'pos' => NULL,  '_format' => 'css',  '_route' => '_assetic_8e49901',);
+            }
+
+            if (0 === strpos($pathinfo, '/css/8e49901_')) {
+                if (0 === strpos($pathinfo, '/css/8e49901_event')) {
+                    // _assetic_8e49901_0
+                    if ($pathinfo === '/css/8e49901_event_1.css') {
+                        return array (  '_controller' => 'assetic.controller:render',  'name' => '8e49901',  'pos' => 0,  '_format' => 'css',  '_route' => '_assetic_8e49901_0',);
+                    }
+
+                    // _assetic_8e49901_1
+                    if ($pathinfo === '/css/8e49901_events_2.css') {
+                        return array (  '_controller' => 'assetic.controller:render',  'name' => '8e49901',  'pos' => 1,  '_format' => 'css',  '_route' => '_assetic_8e49901_1',);
+                    }
+
+                }
+
+                // _assetic_8e49901_2
+                if ($pathinfo === '/css/8e49901_main_3.css') {
+                    return array (  '_controller' => 'assetic.controller:render',  'name' => '8e49901',  'pos' => 2,  '_format' => 'css',  '_route' => '_assetic_8e49901_2',);
+                }
+
+            }
+
+        }
+
         if (0 === strpos($pathinfo, '/_')) {
             // _wdt
             if (0 === strpos($pathinfo, '/_wdt') && preg_match('#^/_wdt/(?P<token>[^/]++)$#s', $pathinfo, $matches)) {
