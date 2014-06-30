@@ -1,0 +1,40 @@
+.main-block {
+    width: 500px;
+    margin: 100px auto;
+}
+
+.main-block article {
+    padding: 50px;
+    background: #fff;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+}
+
+.main-block article label {
+    display: -moz-inline-box;
+    display: inline-block;
+    width: 120px;
+    font-size: 24px;
+}
+.main-block article input[type="text"], .main-block article input[type="password"], .main-block article input[type="email"] {
+    border: 1px solid #ccc;
+    font-size: 24px;
+    padding: 5px;
+    width: 264px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+}
+.main-block article input[type="submit"] {
+    float: right;
+}
+.main-block .error {
+    background-color: #ff6666;
+    color: #333;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}

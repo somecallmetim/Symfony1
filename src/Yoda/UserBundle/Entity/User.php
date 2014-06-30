@@ -39,6 +39,11 @@ class User implements AdvancedUserInterface, Serializable
 
     /**
      * @var string
+     */
+    private $plainPassword;
+
+    /**
+     * @var string
      *
      * @ORM\Column(name="salt", type="string", length=255)
      */
@@ -132,6 +137,14 @@ class User implements AdvancedUserInterface, Serializable
     }
 
     /**
+     * @param string $plainPassword
+     */
+    public function setPlainPassword($plainPassword)
+    {
+        $this->plainPassword = $plainPassword;
+    }
+
+    /**
      * Get password
      *
      * @return string 
@@ -177,6 +190,14 @@ class User implements AdvancedUserInterface, Serializable
     }
 
     /**
+     * @return string
+     */
+    public function getPlainPassword()
+    {
+        return $this->plainPassword;
+    }
+
+    /**
      * @return array|\Symfony\Component\Security\Core\Role\Role[]
      */
     public function getRoles()
@@ -206,7 +227,7 @@ class User implements AdvancedUserInterface, Serializable
 
     public function eraseCredentials()
     {
-
+        $this->setPlainPassword(null);
     }
 
     /**

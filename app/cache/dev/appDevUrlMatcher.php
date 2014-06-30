@@ -247,6 +247,11 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
 
         }
 
+        // user_register
+        if ($pathinfo === '/register') {
+            return array (  '_controller' => 'Yoda\\UserBundle\\Controller\\RegisterController::registerAction',  '_route' => 'user_register',);
+        }
+
         throw 0 < count($allow) ? new MethodNotAllowedException(array_unique($allow)) : new ResourceNotFoundException();
     }
 }
