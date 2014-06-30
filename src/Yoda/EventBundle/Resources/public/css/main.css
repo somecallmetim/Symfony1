@@ -7,7 +7,7 @@ body {
 #menu {
     height:40px;
     margin-bottom:30px;
-    padding-left:162px;
+    padding-left:142px;
 }
 
 #menu a.link {
@@ -20,12 +20,14 @@ body {
 }
 
 #menu a.link:after {
-    content:'/';
+    content:'';
     position:absolute;
     right:-4px;
     top:0px;
     color:#ccc;
 }
+
+
 
 #menu a.link:last-child:after {
     display:none;

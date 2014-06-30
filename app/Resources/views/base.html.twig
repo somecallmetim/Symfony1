@@ -19,7 +19,15 @@
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
     </head>
     <body>
-        {% block body %}{% endblock %}
+        {% block body %}
+            {% if app.session.flashBag.has('Success!') %}
+                <div class="alert-message Success!">
+                    {% for msg in app.session.flashBag.get('Success!') %}
+                        {{ msg }}
+                    {% endfor %}
+                </div>
+            {% endif %}
+        {% endblock %}
         {% block javascripts %}{% endblock %}
     </body>
 </html>
