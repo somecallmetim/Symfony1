@@ -3,8 +3,9 @@
 namespace Yoda\EventBundle\Controller;
 
 use Symfony\Component\HttpFoundation\Request;
-use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use Yoda\EventBundle\Controller\Controller;
 
+use Symfony\Component\Security\Core\Exception\AccessDeniedException;
 use Yoda\EventBundle\Entity\Event;
 use Yoda\EventBundle\Form\EventType;
 
@@ -40,6 +41,9 @@ class EventController extends Controller
         $form->handleRequest($request);
 
         if ($form->isValid()) {
+
+            $entity->setOwner($this->getUser());
+
             $em = $this->getDoctrine()->getManager();
             $em->persist($entity);
             $em->flush();
@@ -118,6 +122,8 @@ class EventController extends Controller
 
         $entity = $em->getRepository('EventBundle:Event')->find($id);
 
+        $this->checkOwnerSecurity($entity);
+
         if (!$entity) {
             throw $this->createNotFoundException('Unable to find Event entity.');
         }
@@ -160,6 +166,8 @@ class EventController extends Controller
 
         $entity = $em->getRepository('EventBundle:Event')->find($id);
 
+        $this->checkOwnerSecurity($entity);
+
         if (!$entity) {
             throw $this->createNotFoundException('Unable to find Event entity.');
         }
@@ -193,6 +201,8 @@ class EventController extends Controller
             $em = $this->getDoctrine()->getManager();
             $entity = $em->getRepository('EventBundle:Event')->find($id);
 
+            $this->checkOwnerSecurity($entity);
+
             if (!$entity) {
                 throw $this->createNotFoundException('Unable to find Event entity.');
             }
@@ -219,5 +229,15 @@ class EventController extends Controller
             ->add('submit', 'submit', array('label' => 'Delete'))
             ->getForm()
         ;
+    }
+
+    private function checkOwnerSecurity(Event $event)
+    {
+        $user = $this->getUser();
+
+        if ($user != $event->getOwner())
+        {
+            throw new AccessDeniedException('You are not the owner!!!');
+        }
     }
 }

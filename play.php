@@ -22,14 +22,13 @@ $container->set('request', $request);
 
 // all our setup is done!!!!!!
 
-$event = new Event();
-$event->setName('Darth\'s surprise birthday party');
-$event->setLocation('Deathstar');
-$event->setTime(new \DateTime('tomorrow noon'));
-$event->setDetails('Ha! Darth HATES surprises!!!!');
+$em = $container->get('doctrine')
+    ->getManager();
+;
 
-$em = $container->get('doctrine')->getManager();
+$user = $em
+    ->getRepository('UserBundle:User')
+    ->findOneBy(array('username' => 'user'))
+;
 
-$em = $container->get('doctrine')->getManager();
-$em->persist($event);
-$em->flush();
+var_dump(count($user->getEvents()));

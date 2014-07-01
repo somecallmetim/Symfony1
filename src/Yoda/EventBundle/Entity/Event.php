@@ -3,6 +3,7 @@
 namespace Yoda\EventBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Yoda\UserBundle\Entity\User;
 
 /**
  * Event
@@ -48,6 +49,32 @@ class Event
      * @ORM\Column(name="details", type="text", nullable=true)
      */
     private $details;
+
+
+    /**
+     * @var
+     *
+     * cascade lets Doctrine remove all associated event entries when a user is deleted
+     * @ORM\ManyToOne(targetEntity="Yoda\UserBundle\Entity\User", cascade={"remove"}, inversedBy="events")
+     * @ORM\JoinColumn(onDelete="CASCADE")
+     */
+    protected  $owner;
+
+    /**
+     * @param mixed $owner
+     */
+    public function setOwner(User $owner)
+    {
+        $this->owner = $owner;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getOwner()
+    {
+        return $this->owner;
+    }
 
 
     /**

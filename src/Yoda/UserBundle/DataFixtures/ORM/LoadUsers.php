@@ -8,13 +8,14 @@
 
 namespace Yoda\UserBundle\DataFixtures\ORM;
 
-use Doctrine\Common\DataFixtures\FixtureInterface;
 use Doctrine\Common\Persistence\ObjectManager;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 use Yoda\UserBundle\Entity\User;
 use Symfony\Component\DependencyInjection\ContainerAwareInterface;
+use Doctrine\Common\DataFixtures\OrderedFixtureInterface;
+use Doctrine\Common\DataFixtures\AbstractFixture;
 
-class LoadUsers implements FixtureInterface, ContainerAwareInterface
+class LoadUsers extends AbstractFixture implements ContainerAwareInterface, OrderedFixtureInterface
 {
     private $container;
 
@@ -25,6 +26,10 @@ class LoadUsers implements FixtureInterface, ContainerAwareInterface
         $user->setPassword($this->encodePassword($user, 'user'));
         $user->setEmail('user@user.com');
         $manager->persist($user);
+
+
+        //user-user is an arbitrary name
+        $this->addReference('user-user', $user);
 
         $admin = new User();
         $admin->setUsername('admin');
@@ -57,4 +62,13 @@ class LoadUsers implements FixtureInterface, ContainerAwareInterface
     }
 
 
-} 
+    /**
+     * Get the order of this fixture
+     *
+     * @return integer
+     */
+    function getOrder()
+    {
+        return 10;
+    }
+}

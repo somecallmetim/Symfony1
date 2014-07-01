@@ -17,6 +17,21 @@
     width: 120px;
     font-size: 24px;
 }
+
+.main-block article section h1 {
+
+    font-family:Tahoma;
+    font-weight:normal;
+    font-size:20px;
+    text-decoration:none;
+
+    display:block;
+    height:28px;
+
+    background:url(../images/pinpoint.png) no-repeat -5px 0px;
+    padding-left:30px;
+    padding-top:2px;
+}
 .main-block article input[type="text"], .main-block article input[type="password"], .main-block article input[type="email"] {
     border: 1px solid #ccc;
     font-size: 24px;
