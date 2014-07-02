@@ -72,7 +72,7 @@ class Event
      * @var
      *
      * cascade lets Doctrine remove all associated event entries when a user is deleted
-     * @ORM\ManyToOne(targetEntity="Yoda\UserBundle\Entity\User", cascade={"remove"}, inversedBy="events")
+     * @ORM\ManyToOne(targetEntity="Yoda\UserBundle\Entity\User", inversedBy="events")
      * @ORM\JoinColumn(onDelete="CASCADE")
      */
     protected  $owner;
