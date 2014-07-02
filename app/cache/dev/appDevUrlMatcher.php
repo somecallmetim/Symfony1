@@ -179,7 +179,7 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
         }
 
         // event_show
-        if (preg_match('#^/(?P<id>[^/]++)/show$#s', $pathinfo, $matches)) {
+        if (preg_match('#^/(?P<slug>[^/]++)/show$#s', $pathinfo, $matches)) {
             return $this->mergeDefaults(array_replace($matches, array('_route' => 'event_show')), array (  '_controller' => 'Yoda\\EventBundle\\Controller\\EventController::showAction',));
         }
 
