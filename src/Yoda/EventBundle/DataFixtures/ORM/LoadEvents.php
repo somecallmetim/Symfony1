@@ -30,7 +30,7 @@ class LoadEvents extends AbstractFixture implements OrderedFixtureInterface
         $event2 = new Event();
         $event2->setName('Rebellion Fundraiser Bake Sale!');
         $event2->setLocation('Endor');
-        $event2->setTime(new \DateTime('Thursday noon'));
+        $event2->setTime(new \DateTime('tomorrow noon'));
         $event2->setDetails('Ewok pies! Support the rebellion!');
         $event2->setOwner($user);
         $manager->persist($event2);
