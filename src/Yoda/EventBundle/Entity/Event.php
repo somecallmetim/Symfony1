@@ -2,6 +2,7 @@
 
 namespace Yoda\EventBundle\Entity;
 
+use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\ORM\Mapping as ORM;
 use Yoda\UserBundle\Entity\User;
 use Gedmo\Mapping\Annotation as Gedmo;
@@ -82,6 +83,29 @@ class Event
      * @ORM\Column(length=255, unique=true)
      */
     protected $slug;
+
+    /**
+     * @ORM\ManyToMany(targetEntity="Yoda\UserBundle\Entity\User")
+     * @ORM\JoinTable(
+     *      joinColumns={@ORM\JoinColumn()},
+     *      inverseJoinColumns={@ORM\JoinColumn()}
+     *      )
+     */
+    protected $attendees;
+
+    /**
+     * @return mixed
+     */
+    public function getAttendees()
+    {
+        return $this->attendees;
+    }
+
+    function __construct()
+    {
+        $this->attendees = new ArrayCollection();
+    }
+
 
     /**
      * @param mixed $slug
@@ -250,5 +274,14 @@ class Event
     public function getDetails()
     {
         return $this->details;
+    }
+
+    /**
+     * @param \Yoda\UserBundle\Entity\User $user
+     * @return bool
+     */
+    public function hasAttendee(User $user)
+    {
+        return $this->getAttendees()->contains($user);
     }
 }

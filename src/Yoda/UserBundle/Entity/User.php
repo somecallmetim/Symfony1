@@ -357,5 +357,10 @@ class User implements AdvancedUserInterface, Serializable
         $this->id = $data['id'];
     }
 
+    public function __toString()
+    {
+        return (string) $this->getUsername();
+    }
+
 
 }
