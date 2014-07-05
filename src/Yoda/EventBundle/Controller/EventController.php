@@ -8,6 +8,7 @@ use Yoda\EventBundle\Controller\Controller;
 use Symfony\Component\Security\Core\Exception\AccessDeniedException;
 use Yoda\EventBundle\Entity\Event;
 use Yoda\EventBundle\Form\EventType;
+use Symfony\Component\HttpFoundation\Response;
 
 /**
  * Event controller.
@@ -217,7 +218,7 @@ class EventController extends Controller
     }
 
 
-    public function attendAction($id)
+    public function attendAction($id, $_format)
     {
         $em = $this->getDoctrine()->getManager();
         /** @var $event \Yoda\EventBundle\Entity\Event */
@@ -234,13 +235,17 @@ class EventController extends Controller
         $em->persist($event);
         $em->flush();
 
+        if ($_format == 'json'){
+            return $this->createAttendingJson(true);
+        }
+
         return $this->redirect($this->generateUrl('event_show', array(
             'slug' => $event->getSlug()
         )));
     }
 
 
-    public function unattendAction($id)
+    public function unattendAction($id, $_format)
     {
         $em = $this->getDoctrine()->getManager();
         /** @var $event \Yoda\EventBundle\Entity\Event */
@@ -257,11 +262,29 @@ class EventController extends Controller
         $em->persist($event);
         $em->flush();
 
+        if ($_format == 'json'){
+            return $this->createAttendingJson(false);
+        }
+
         return $this->redirect($this->generateUrl('event_show', array(
             'slug' => $event->getSlug()
         )));
     }
 
+    /**
+     * @param bool $attending
+     * @return Response
+     */
+    private function createAttendingJson($attending)
+    {
+        $data = array(
+            'attending' => $attending
+        );
+
+        $response = new Response(json_encode($data));
+
+        return $response;
+    }
 
     /**
      * Creates a form to delete a Event entity by id.

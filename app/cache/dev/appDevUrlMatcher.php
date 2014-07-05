@@ -227,13 +227,13 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
         not_event_delete:
 
         // event_attend
-        if (preg_match('#^/(?P<id>[^/]++)/attend$#s', $pathinfo, $matches)) {
-            return $this->mergeDefaults(array_replace($matches, array('_route' => 'event_attend')), array (  '_controller' => 'Yoda\\EventBundle\\Controller\\EventController::attendAction',));
+        if (preg_match('#^/(?P<id>[^/]++)/attend(?:\\.(?P<_format>html|json))?$#s', $pathinfo, $matches)) {
+            return $this->mergeDefaults(array_replace($matches, array('_route' => 'event_attend')), array (  '_controller' => 'Yoda\\EventBundle\\Controller\\EventController::attendAction',  '_format' => 'html',));
         }
 
         // event_unattend
-        if (preg_match('#^/(?P<id>[^/]++)/unattend$#s', $pathinfo, $matches)) {
-            return $this->mergeDefaults(array_replace($matches, array('_route' => 'event_unattend')), array (  '_controller' => 'Yoda\\EventBundle\\Controller\\EventController::unattendAction',));
+        if (preg_match('#^/(?P<id>[^/]++)/unattend(?:\\.(?P<_format>html|json))?$#s', $pathinfo, $matches)) {
+            return $this->mergeDefaults(array_replace($matches, array('_route' => 'event_unattend')), array (  '_controller' => 'Yoda\\EventBundle\\Controller\\EventController::unattendAction',  '_format' => 'html',));
         }
 
         if (0 === strpos($pathinfo, '/log')) {
