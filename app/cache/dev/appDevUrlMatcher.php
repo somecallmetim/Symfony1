@@ -244,6 +244,11 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
             return $this->mergeDefaults(array_replace($matches, array('_route' => 'event_unattend')), array (  '_controller' => 'Yoda\\EventBundle\\Controller\\EventController::unattendAction',  '_format' => 'html',));
         }
 
+        // event_report_updated_events
+        if ($pathinfo === '/events/report/recentlyUpdated.csv') {
+            return array (  '_controller' => 'Yoda\\EventBundle\\Controller\\ReportController::updatedEventsAction',  '_format' => 'csv',  '_route' => 'event_report_updated_events',);
+        }
+
         if (0 === strpos($pathinfo, '/log')) {
             if (0 === strpos($pathinfo, '/login')) {
                 // login
