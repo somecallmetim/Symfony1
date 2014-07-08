@@ -1,0 +1,19 @@
+{# app/Resources/TwigBundle/views/Exception/error.html.twig #}
+
+{% extends '::base.html.twig' %}
+
+{% block body %}
+<section class="main-block">
+    <article>
+        <section>
+            <h1>Ah crap!</h1>
+
+            <div>These are not the droids you're looking for... (404)</div>
+        </section>
+    </article>
+</section>
+<section class="events">
+    {{ render(controller('EventBundle:Event:_upcomingEvents')) }}
+</section>
+{% endblock %}
+

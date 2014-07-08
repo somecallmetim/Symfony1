@@ -2,24 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b35724f-b3ea-4581-a05b-3e35a740cf9b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/59/d5/2bd843dfd1204f3f5484e59cf151a50ee251b04539f39209b92ba7cda7e5.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/59/d5/2bd843dfd1204f3f5484e59cf151a50ee251b04539f39209b92ba7cda7e5.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/c3/a3/94ae0f937284dfa47ca969e3475be704d98c9f8609c0a525dff97305a684.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/c3/a3/94ae0f937284dfa47ca969e3475be704d98c9f8609c0a525dff97305a684.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/8e49901.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Yoda/EventBundle/Exception/EventNotFoundException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Yoda/EventBundle/Controller/ExceptionController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Yoda/EventBundle/Resources/views/Event/_events.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Yoda/EventBundle/Resources/public/css/error.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/TwigBundle/views/Exception/error.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/TwigBundle/views/Exception/error404.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Yoda/EventBundle/Resources/views/Exception/error404.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/4/43a80f0e087752a2d4724591f85aa0e1.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/4/43a80f0e087752a2d4724591f85aa0e1.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Yoda/EventBundle/Controller/EventController.php" afterPath="$PROJECT_DIR$/src/Yoda/EventBundle/Controller/EventController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/ce/fd/a2bfd77c606a2b6df13eb901c4ce6b336f9051804828a6379442abe0bd04.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/ce/fd/a2bfd77c606a2b6df13eb901c4ce6b336f9051804828a6379442abe0bd04.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Controller/ExceptionController.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Controller/ExceptionController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.php" afterPath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.xml" afterPath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainerCompiler.log" afterPath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainerCompiler.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/appDevUrlGenerator.php.meta" afterPath="$PROJECT_DIR$/app/cache/dev/appDevUrlGenerator.php.meta" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/appDevUrlGenerator.php" afterPath="$PROJECT_DIR$/app/cache/dev/appDevUrlGenerator.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/appDevUrlMatcher.php" afterPath="$PROJECT_DIR$/app/cache/dev/appDevUrlMatcher.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/fa/ea/c4ff0a5bf052f1148eda03af27fd66a8cfa13235afbd30398e6eeb53ef5b.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/fa/ea/c4ff0a5bf052f1148eda03af27fd66a8cfa13235afbd30398e6eeb53ef5b.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/ff/d8/c5e6c2134bc1a67aed015ab880dc959b091e1a80dc9c53e339739108ea52.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/ff/d8/c5e6c2134bc1a67aed015ab880dc959b091e1a80dc9c53e339739108ea52.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="$PROJECT_DIR$/app/config/config.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/logs/dev.log" afterPath="$PROJECT_DIR$/app/logs/dev.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Yoda/EventBundle/Resources/config/routing/event.yml" afterPath="$PROJECT_DIR$/src/Yoda/EventBundle/Resources/config/routing/event.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/index.csv" afterPath="$PROJECT_DIR$/app/cache/dev/profiler/index.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/myproject.iml" afterPath="$PROJECT_DIR$/.idea/myproject.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Yoda/EventBundle/Resources/views/Event/show.html.twig" afterPath="$PROJECT_DIR$/src/Yoda/EventBundle/Resources/views/Event/show.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Yoda/EventBundle/Resources/views/Event/index.html.twig" afterPath="$PROJECT_DIR$/src/Yoda/EventBundle/Resources/views/Event/index.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="myproject.iws" />
@@ -46,49 +50,105 @@
       <file leaf-file-name="EventController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Controller/EventController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="265" column="51" selection-start="7271" selection-end="7271" vertical-scroll-proportion="-161.875" vertical-offset="0" max-vertical-offset="4725">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.html.twig" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Resources/views/Event/show.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="14" selection-start="2362" selection-end="2362" vertical-scroll-proportion="1.9444444" vertical-offset="0" max-vertical-offset="1335">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="32" selection-start="882" selection-end="882" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="630">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main_jquery.blockUI_1.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Resources/public/js/main_jquery.blockUI_1.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8700">
+            <state line="22" column="32" selection-start="561" selection-end="561" vertical-scroll-proportion="-10.625" vertical-offset="75" max-vertical-offset="5100">
               <folding>
-                <marker date="1399294368000" expanded="false" signature="8704:8712" placeholder="..." />
-                <marker date="1399294368000" expanded="false" signature="8911:8923" placeholder="..." />
-                <marker date="1399294368000" expanded="false" signature="9028:9036" placeholder="..." />
-                <marker date="1399294368000" expanded="false" signature="9135:9143" placeholder="..." />
+                <element signature="e#47#92#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="event.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Resources/config/routing/event.yml">
+      <file leaf-file-name="ExceptionController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Controller/ExceptionController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="39" selection-start="626" selection-end="626" vertical-scroll-proportion="0.0" vertical-offset="7" max-vertical-offset="720">
+            <state line="29" column="23" selection-start="926" selection-end="926" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="570">
+              <folding>
+                <element signature="e#130#194#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EventNotFoundException.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Exception/EventNotFoundException.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="27" selection-start="117" selection-end="117" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="240">
+              <folding>
+                <element signature="e#6#88#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="38" selection-start="824" selection-end="824" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="1365">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="error.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/TwigBundle/views/Exception/error.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="0" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="330">
+              <folding>
+                <marker date="1404770607000" expanded="true" signature="142:300" placeholder="..." />
+                <marker date="1404770607000" expanded="true" signature="156:289" placeholder="..." />
+                <marker date="1404770607000" expanded="true" signature="174:274" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExceptionController.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Controller/ExceptionController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="99" column="28" selection-start="3041" selection-end="3041" vertical-scroll-proportion="0.3323124" vertical-offset="1103" max-vertical-offset="1950">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="error404.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/TwigBundle/views/Exception/error404.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="0" selection-start="445" selection-end="445" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="375">
+              <folding>
+                <element signature="e#76#92#0" expanded="false" />
+                <marker date="1404775953000" expanded="true" signature="142:326" placeholder="..." />
+                <marker date="1404775953000" expanded="true" signature="156:315" placeholder="..." />
+                <marker date="1404775953000" expanded="true" signature="174:300" placeholder="..." />
+                <marker date="1404775953000" expanded="true" signature="351:428" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Resources/views/Event/index.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="14" selection-start="639" selection-end="639" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="375">
+              <folding>
+                <marker date="1404768039000" expanded="true" signature="93:623" placeholder="..." />
+                <marker date="1404768039000" expanded="true" signature="120:551" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_events.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Resources/views/Event/_events.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="12" selection-start="839" selection-end="839" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="420">
+              <folding>
+                <marker date="1404768039000" expanded="true" signature="41:825" placeholder="..." />
+                <marker date="1404768039000" expanded="true" signature="80:329" placeholder="..." />
+                <marker date="1404768039000" expanded="true" signature="347:810" placeholder="..." />
+                <marker date="1404768039000" expanded="true" signature="364:478" placeholder="..." />
+                <marker date="1404768039000" expanded="true" signature="496:791" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -117,7 +177,6 @@
         <option value="$PROJECT_DIR$/src/Yoda/UserBundle/Controller/LoginController.php" />
         <option value="$PROJECT_DIR$/src/Yoda/UserBundle/Resources/views/Login/login.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/translations/messages.en.yml" />
-        <option value="$PROJECT_DIR$/app/config/config.yml" />
         <option value="$PROJECT_DIR$/app/config/routing.yml" />
         <option value="$PROJECT_DIR$/src/Yoda/UserBundle/Entity/UserRepository.php" />
         <option value="$PROJECT_DIR$/src/Yoda/UserBundle/Resources/register/register.html.twig" />
@@ -135,11 +194,22 @@
         <option value="$PROJECT_DIR$/src/Yoda/EventBundle/DataFixtures/ORM/LoadEvents.php" />
         <option value="$PROJECT_DIR$/src/Yoda/EventBundle/Entity/Event.php" />
         <option value="$PROJECT_DIR$/src/Yoda/UserBundle/Entity/User.php" />
-        <option value="$PROJECT_DIR$/src/Yoda/EventBundle/Resources/views/Event/index.html.twig" />
         <option value="$PROJECT_DIR$/src/Yoda/EventBundle/Resources/config/routing/event.yml" />
-        <option value="$PROJECT_DIR$/src/Yoda/EventBundle/Controller/EventController.php" />
-        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
         <option value="$PROJECT_DIR$/src/Yoda/EventBundle/Resources/views/Event/show.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/TwigBundle/Resources/views/Exception/error.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
+        <option value="$PROJECT_DIR$/src/Yoda/EventBundle/Resources/public/css/error.css" />
+        <option value="$PROJECT_DIR$/src/Yoda/EventBundle/Resources/views/Event/_events.html.twig" />
+        <option value="$PROJECT_DIR$/src/Yoda/EventBundle/Resources/views/Event/index.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/TwigBundle/views/Exception/error.html.twig" />
+        <option value="$PROJECT_DIR$/src/Yoda/Exception/EventNotFoundException.php" />
+        <option value="$PROJECT_DIR$/app/config/config.yml" />
+        <option value="$PROJECT_DIR$/app/Resources/TwigBundle/views/Exception/error404.html.twig" />
+        <option value="$PROJECT_DIR$/src/Yoda/EventBundle/Resources/views/Event/Exception/error404.html.twig" />
+        <option value="$PROJECT_DIR$/src/Yoda/EventBundle/Controller/EventController.php" />
+        <option value="$PROJECT_DIR$/src/Yoda/EventBundle/Exception/EventNotFoundException.php" />
+        <option value="$PROJECT_DIR$/src/Yoda/EventBundle/Controller/ExceptionController.php" />
+        <option value="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Controller/ExceptionController.php" />
       </list>
     </option>
   </component>
@@ -205,171 +275,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Yoda" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Yoda" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EventBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Yoda" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EventBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Yoda" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EventBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Yoda" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EventBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Yoda" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EventBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -378,7 +284,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/sfStateSymfony1" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/sfStateSymfony1/src" />
     <property name="options.lastSelected" value="Symfony2.SettingsForm" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -404,13 +310,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Yoda/EventBundle/Resources/views/Event" />
+      <recent name="$PROJECT_DIR$/src/Yoda/EventBundle/Exception" />
+      <recent name="$PROJECT_DIR$/src/Yoda/EventBundle/Resources/views/Event/Exception" />
+      <recent name="$PROJECT_DIR$/app/Resources/TwigBundle/views/Exception" />
       <recent name="$PROJECT_DIR$/src/Yoda/UserBundle/Resources/public" />
-      <recent name="$PROJECT_DIR$/src/Yoda/UserBundle/Resources/public/css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Yoda/EventBundle/Resources/views/Exception" />
+      <recent name="$PROJECT_DIR$/src/Yoda/EventBundle" />
+      <recent name="$PROJECT_DIR$/app/Resources/TwigBundle" />
+      <recent name="$PROJECT_DIR$/app/Resources/TwigBundle/Resources" />
       <recent name="$PROJECT_DIR$/web/bundles/event/js" />
-      <recent name="$PROJECT_DIR$/src/Yoda/EventBundle/Resources/public/js" />
-      <recent name="$PROJECT_DIR$/src/Yoda/UserBundle/Resources/views" />
     </key>
   </component>
   <component name="RunManager">
@@ -440,29 +351,29 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="62" y="27" width="1376" height="810" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32928476" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928476" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928476" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Symfony2" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.14084508" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.15789473" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928476" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.85915494" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.84210527" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32931727" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3994602" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -484,60 +395,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Resources/views/Event/new.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Resources/views/Event/show.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Resources/views/layout.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="38" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="120" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Resources/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="214" selection-end="214" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Resources/views/Default/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="14" selection-start="289" selection-end="289" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="300" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Resources/config/routing/event.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="24" selection-start="428" selection-end="428" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="540">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Controller/EventController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="5" selection-start="1012" selection-end="1012" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="3435">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Controller/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="8" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="330" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Resources/views/Default/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="38" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Resources/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="35" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="135" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Resources/views/Default/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="14" selection-start="289" selection-end="289" vertical-scroll-proportion="0.3153153" vertical-offset="0" max-vertical-offset="666" />
@@ -551,11 +408,6 @@
     <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Resources/views/Event/new.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="22" selection-start="664" selection-end="664" vertical-scroll-proportion="0.47826087" vertical-offset="0" max-vertical-offset="1125" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/translations/messages.en.yml">
@@ -607,11 +459,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Yoda/UserBundle/Controller/LoginController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="83" selection-start="1085" selection-end="1085" vertical-scroll-proportion="0.6081081" vertical-offset="0" max-vertical-offset="975" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Resources/config/routing.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="63" selection-start="192" selection-end="192" vertical-scroll-proportion="0.10869565" vertical-offset="0" max-vertical-offset="690" />
@@ -635,16 +482,6 @@
     <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Resources/public/images/pinpoint.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Resources/public/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="9" selection-start="690" selection-end="690" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1245" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Resources/public/css/event.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="0" selection-start="1006" selection-end="1006" vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="2895" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Yoda/UserBundle/Resources/public/css/register.css">
@@ -692,11 +529,6 @@
         <state line="362" column="5" selection-start="7410" selection-end="7410" vertical-scroll-proportion="-25.583334" vertical-offset="4741" max-vertical-offset="5505" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Resources/views/Event/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="73" selection-start="1456" selection-end="1456" vertical-scroll-proportion="-21.041666" vertical-offset="20" max-vertical-offset="720" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Entity/Event.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="285" column="5" selection-start="4912" selection-end="4912" vertical-scroll-proportion="3.6923077" vertical-offset="1827" max-vertical-offset="4395">
@@ -718,14 +550,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Resources/public/js/main_jquery.blockUI_1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8700">
-          <folding>
-            <marker date="1399294368000" expanded="false" signature="8704:8712" placeholder="..." />
-            <marker date="1399294368000" expanded="false" signature="8911:8923" placeholder="..." />
-            <marker date="1399294368000" expanded="false" signature="9028:9036" placeholder="..." />
-            <marker date="1399294368000" expanded="false" signature="9135:9143" placeholder="..." />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8700" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Resources/public/js/main.js">
@@ -733,28 +558,12 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.15" vertical-offset="105" max-vertical-offset="8700" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="32" selection-start="882" selection-end="882" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="630">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Controller/EventController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="265" column="51" selection-start="7271" selection-end="7271" vertical-scroll-proportion="-161.875" vertical-offset="0" max-vertical-offset="4725">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/cache/dev/profiler/index.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020" />
+      </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Resources/config/routing/event.yml">
@@ -766,7 +575,130 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Resources/views/Event/show.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="14" selection-start="2362" selection-end="2362" vertical-scroll-proportion="1.9444444" vertical-offset="0" max-vertical-offset="1335">
+        <state line="56" column="14" selection-start="2362" selection-end="2362" vertical-scroll-proportion="0.4189815" vertical-offset="659" max-vertical-offset="1335">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Resources/public/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="9" selection-start="690" selection-end="690" vertical-scroll-proportion="0.9467041" vertical-offset="0" max-vertical-offset="1245" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Resources/public/css/events.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2145" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Resources/public/css/error.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="161" column="1" selection-start="2834" selection-end="2834" vertical-scroll-proportion="3.6646433" vertical-offset="0" max-vertical-offset="2520" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Resources/public/css/event.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="29" selection-start="841" selection-end="841" vertical-scroll-proportion="0.14726508" vertical-offset="570" max-vertical-offset="2895" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="44" selection-start="234" selection-end="234" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="645" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Resources/views/Event/_events.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="12" selection-start="839" selection-end="839" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="420">
+          <folding>
+            <marker date="1404768039000" expanded="true" signature="41:825" placeholder="..." />
+            <marker date="1404768039000" expanded="true" signature="80:329" placeholder="..." />
+            <marker date="1404768039000" expanded="true" signature="347:810" placeholder="..." />
+            <marker date="1404768039000" expanded="true" signature="364:478" placeholder="..." />
+            <marker date="1404768039000" expanded="true" signature="496:791" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app_dev.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Resources/views/Event/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="14" selection-start="639" selection-end="639" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="375">
+          <folding>
+            <marker date="1404768039000" expanded="true" signature="93:623" placeholder="..." />
+            <marker date="1404768039000" expanded="true" signature="120:551" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Yoda/UserBundle/Controller/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="356" selection-end="418" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="975" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/TwigBundle/views/Exception/error.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="330">
+          <folding>
+            <marker date="1404770607000" expanded="true" signature="142:300" placeholder="..." />
+            <marker date="1404770607000" expanded="true" signature="156:289" placeholder="..." />
+            <marker date="1404770607000" expanded="true" signature="174:274" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="38" selection-start="824" selection-end="824" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="1365">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Exception/EventNotFoundException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="27" selection-start="117" selection-end="117" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="240">
+          <folding>
+            <element signature="e#6#88#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/TwigBundle/views/Exception/error404.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="445" selection-end="445" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="375">
+          <folding>
+            <element signature="e#76#92#0" expanded="false" />
+            <marker date="1404775953000" expanded="true" signature="142:326" placeholder="..." />
+            <marker date="1404775953000" expanded="true" signature="156:315" placeholder="..." />
+            <marker date="1404775953000" expanded="true" signature="174:300" placeholder="..." />
+            <marker date="1404775953000" expanded="true" signature="351:428" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Controller/EventController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="32" selection-start="561" selection-end="561" vertical-scroll-proportion="-10.625" vertical-offset="75" max-vertical-offset="5100">
+          <folding>
+            <element signature="e#47#92#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Yoda/EventBundle/Controller/ExceptionController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="23" selection-start="926" selection-end="926" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="570">
+          <folding>
+            <element signature="e#130#194#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Controller/ExceptionController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="99" column="28" selection-start="3041" selection-end="3041" vertical-scroll-proportion="0.3323124" vertical-offset="1103" max-vertical-offset="1950">
           <folding />
         </state>
       </provider>

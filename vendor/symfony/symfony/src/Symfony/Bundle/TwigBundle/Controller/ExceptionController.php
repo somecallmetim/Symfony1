@@ -89,6 +89,7 @@ class ExceptionController
      */
     protected function findTemplate(Request $request, $format, $code, $debug)
     {
+
         $name = $debug ? 'exception' : 'error';
         if ($debug && 'html' == $format) {
             $name = 'exception_full';

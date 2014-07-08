@@ -1,3 +1,4 @@
+Symfony\Component\DependencyInjection\Compiler\ResolveDefinitionTemplatesPass: Resolving inheritance for "yoda_event.controller.exception_controller" (parent: twig.controller.exception).
 Symfony\Component\DependencyInjection\Compiler\ResolveDefinitionTemplatesPass: Resolving inheritance for "templating.asset.default_package" (parent: templating.asset.path_package).
 Symfony\Component\DependencyInjection\Compiler\ResolveDefinitionTemplatesPass: Resolving inheritance for "security.user.provider.concrete.our_database_users" (parent: doctrine.orm.security.user.provider).
 Symfony\Component\DependencyInjection\Compiler\ResolveDefinitionTemplatesPass: Resolving inheritance for "security.firewall.map.context.dev" (parent: security.firewall.context).

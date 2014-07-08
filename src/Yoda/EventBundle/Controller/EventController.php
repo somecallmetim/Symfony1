@@ -9,6 +9,8 @@ use Symfony\Component\Security\Core\Exception\AccessDeniedException;
 use Yoda\EventBundle\Entity\Event;
 use Yoda\EventBundle\Form\EventType;
 use Symfony\Component\HttpFoundation\Response;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
+use Yoda\EventBundle\Exception\EventNotFoundException;
 
 /**
  * Event controller.
@@ -105,7 +107,7 @@ class EventController extends Controller
             ->findOneBy(array('slug' => $slug));
 
         if (!$entity) {
-            throw $this->createNotFoundException('Unable to find Event entity.');
+            throw new EventNotFoundException;
         }
 
         $deleteForm = $this->createDeleteForm($entity->getId());
@@ -269,6 +271,23 @@ class EventController extends Controller
         return $this->redirect($this->generateUrl('event_show', array(
             'slug' => $event->getSlug()
         )));
+    }
+
+
+    /**
+     * @Template("EventBundle:Event:_events.html.twig")
+     *
+     */
+    public function _upcomingEventsAction()
+    {
+        $em = $this->getDoctrine()->getManager();
+
+        $entities = $em->getRepository('EventBundle:Event')
+            ->getUpcomingEvents();
+
+        return $this->render('EventBundle:Event:_events.html.twig', array(
+            'entities' => $entities,
+        ));
     }
 
     /**

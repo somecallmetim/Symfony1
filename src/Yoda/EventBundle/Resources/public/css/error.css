@@ -1,0 +1,162 @@
+.main-block #menu {
+    padding-left:323px;
+    height:16px;
+    margin-bottom:-15px;
+}
+
+.main-block .button {
+    font-size:14px;
+    padding:3px 8px;
+}
+.main-block {
+    width:900px;
+    margin:50px auto;
+}
+
+.main-block article {
+    margin-bottom:20px;
+    float:left;
+    width:100%;
+}
+
+.main-block article .map-container {
+    float:left;
+    width:300px;
+    height:300px;
+    overflow:hidden;
+    border:6px solid #fff;
+    background:#fff;
+
+    -webkit-border-radius:150px;
+    -moz-border-radius:150px;
+    border-radius:150px;
+    -webkit-box-shadow:0px 0px 5px #ccc;
+    box-shadow:0px 0px 5px #ccc;
+}
+
+.main-block article .map-container img {
+    width:300px;
+    height:300px;
+
+    -webkit-border-radius:150px;
+    -moz-border-radius:150px;
+    border-radius:150px;
+}
+
+.main-block article section {
+    margin-top:25px;
+    width:560px;
+    min-height:245px;
+    padding:10px;
+    padding-bottom:20px;
+    float:right;
+    background:#fff;
+    position:relative;
+
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+
+    -webkit-box-shadow:0px 0px 2px #ccc;
+    box-shadow:0px 0px 2px #ccc;
+}
+
+.main-block article section:after {
+    content:'';
+    display:block;
+    position:absolute;
+    z-index:1;
+
+    top:105px;
+    left:0px;
+
+    width:30px;
+    height:40px;
+    background:#fff;
+}
+
+.main-block article section:before {
+    content:'';
+    display:block;
+    position:absolute;
+    z-index:1;
+
+    top:110px;
+    left:-15px;
+
+    width:30px;
+    height:30px;
+    background:#fff;
+
+    -webkit-transform:rotate(-45deg);
+    -moz-transform:rotate(-45deg);
+    transform:rotate(-45deg);
+
+    -webkit-box-shadow:0px 0px 2px #ccc;
+    box-shadow:0px 0px 2px #ccc;
+}
+
+.main-block article section {
+    font-family:Tahoma;
+}
+
+.main-block article section * {
+    z-index:2;
+    position:relative;
+}
+
+.main-block article section h1 {
+    margin:0px;
+    padding:0px;
+    padding-bottom:5px;
+    border-bottom:1px solid #eee;
+
+    color:#666666;
+    font-family:Tahoma;
+    font-weight:normal;
+    font-size:30px;
+    text-decoration:none;
+
+    display:block;
+    height:28px;
+
+    background:url(../images/pinpoint.png) no-repeat -5px 7px;
+    padding-left:30px;
+    padding-top:2px;
+    padding-bottom:15px;
+}
+
+.main-block article section dt {
+    font-size:24px;
+    color:#363636;
+    margin-bottom:10px;
+    font-family:Arial;
+}
+
+.main-block article section dd {
+    margin-bottom:15px;
+    margin-left:50px;
+    color:#666666;
+    font-weight:normal !important;
+}
+
+.main-block ul.users {
+    list-style:none;
+    margin:0px;
+    padding:0px;
+    padding-left:0px;
+    line-height:28px;
+}
+.main-block ul.users li {
+    float:left;
+    padding-right:10px;
+    color:#000;
+}
+
+.main-block ul.users li:after {
+    content:',';
+}
+
+.main-block ul.users li:last-child:after {
+    display:none;
+}

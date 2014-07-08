@@ -28,6 +28,12 @@ framework:
 twig:
     debug:            "%kernel.debug%"
     strict_variables: "%kernel.debug%"
+    exception_controller: "yoda_event.controller.exception_controller:showAction"
+
+services:
+    yoda_event.controller.exception_controller:
+        parent: twig.controller.exception
+        class:  Yoda\EventBundle\Controller\ExceptionController
 
 # Assetic Configuration
 assetic:

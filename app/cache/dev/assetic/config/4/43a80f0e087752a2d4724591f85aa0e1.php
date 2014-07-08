@@ -2,13 +2,14 @@
 
 // ::base.html.twig
 return array (
-  '8e49901' => 
+  'b0ff3b0' => 
   array (
     0 => 
     array (
-      0 => 'bundles/event/css/event.css',
-      1 => 'bundles/event/css/events.css',
-      2 => 'bundles/event/css/main.css',
+      0 => 'bundles/event/css/error.css',
+      1 => 'bundles/event/css/event.css',
+      2 => 'bundles/event/css/events.css',
+      3 => 'bundles/event/css/main.css',
     ),
     1 => 
     array (
@@ -16,8 +17,8 @@ return array (
     ),
     2 => 
     array (
-      'output' => '_controller/css/8e49901.css',
-      'name' => '8e49901',
+      'output' => '_controller/css/b0ff3b0.css',
+      'name' => 'b0ff3b0',
       'debug' => NULL,
       'combine' => NULL,
       'vars' => 

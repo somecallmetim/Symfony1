@@ -323,7 +323,7 @@
     <parameter key="twig.translation.extractor.class">Symfony\Bridge\Twig\Translation\TwigExtractor</parameter>
     <parameter key="twig.exception_listener.class">Symfony\Component\HttpKernel\EventListener\ExceptionListener</parameter>
     <parameter key="twig.controller.exception.class">Symfony\Bundle\TwigBundle\Controller\ExceptionController</parameter>
-    <parameter key="twig.exception_listener.controller">twig.controller.exception:showAction</parameter>
+    <parameter key="twig.exception_listener.controller">yoda_event.controller.exception_controller:showAction</parameter>
     <parameter key="twig.form.resources" type="collection">
       <parameter>form_div_layout.html.twig</parameter>
     </parameter>
@@ -331,7 +331,7 @@
     <parameter key="twig.options" type="collection">
       <parameter key="debug">true</parameter>
       <parameter key="strict_variables">true</parameter>
-      <parameter key="exception_controller">twig.controller.exception:showAction</parameter>
+      <parameter key="exception_controller">yoda_event.controller.exception_controller:showAction</parameter>
       <parameter key="autoescape_service">null</parameter>
       <parameter key="autoescape_service_method">null</parameter>
       <parameter key="cache">/Library/WebServer/Documents/myproject/app/cache/dev/twig</parameter>
@@ -602,6 +602,10 @@
     <parameter key="console.command.ids" type="collection"/>
   </parameters>
   <services>
+    <service id="yoda_event.controller.exception_controller" class="Yoda\EventBundle\Controller\ExceptionController">
+      <argument type="service" id="twig"/>
+      <argument>true</argument>
+    </service>
     <service id="controller_name_converter" class="Symfony\Bundle\FrameworkBundle\Controller\ControllerNameParser" public="false">
       <tag name="monolog.logger" channel="request"/>
       <argument type="service" id="kernel"/>
@@ -2397,7 +2401,7 @@
         </argument>
         <argument type="service">
           <service class="Symfony\Component\Security\Core\Authentication\Provider\AnonymousAuthenticationProvider" public="false">
-            <argument>53b5e663d7f25</argument>
+            <argument>53bb30a9738d6</argument>
           </service>
         </argument>
       </argument>
@@ -2673,7 +2677,7 @@
         <argument type="service">
           <service class="Symfony\Component\Security\Http\Firewall\AnonymousAuthenticationListener" public="false">
             <argument type="service" id="security.context"/>
-            <argument>53b5e663d7f25</argument>
+            <argument>53bb30a9738d6</argument>
             <argument type="service" id="monolog.logger.security" on-invalid="null"/>
           </service>
         </argument>
@@ -2758,7 +2762,7 @@
       <argument type="collection">
         <argument key="debug">true</argument>
         <argument key="strict_variables">true</argument>
-        <argument key="exception_controller">twig.controller.exception:showAction</argument>
+        <argument key="exception_controller">yoda_event.controller.exception_controller:showAction</argument>
         <argument key="autoescape_service">null</argument>
         <argument key="autoescape_service_method">null</argument>
         <argument key="cache">/Library/WebServer/Documents/myproject/app/cache/dev/twig</argument>
@@ -2920,7 +2924,7 @@
     <service id="twig.exception_listener" class="Symfony\Component\HttpKernel\EventListener\ExceptionListener">
       <tag name="kernel.event_subscriber"/>
       <tag name="monolog.logger" channel="request"/>
-      <argument>twig.controller.exception:showAction</argument>
+      <argument>yoda_event.controller.exception_controller:showAction</argument>
       <argument type="service" id="monolog.logger.request" on-invalid="null"/>
     </service>
     <service id="twig.controller.exception" class="Symfony\Bundle\TwigBundle\Controller\ExceptionController">
@@ -3579,6 +3583,10 @@
       <call method="addPath">
         <argument>/Library/WebServer/Documents/myproject/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Resources/views</argument>
         <argument>Security</argument>
+      </call>
+      <call method="addPath">
+        <argument>/Library/WebServer/Documents/myproject/app/Resources/TwigBundle/views</argument>
+        <argument>Twig</argument>
       </call>
       <call method="addPath">
         <argument>/Library/WebServer/Documents/myproject/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views</argument>
