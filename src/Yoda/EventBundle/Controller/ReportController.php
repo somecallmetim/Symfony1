@@ -18,7 +18,7 @@ class ReportController extends Controller
     {
         //once service is called, if a controller tries to create a new instance of that service,
         //the original service is used instead
-        $reportManager = $this->container->get('yoda_event_.reporting.event_report_manager');
+        $reportManager = $this->container->get('yoda_event.reporting.event_report_manager');
         $content = $reportManager->getRecentlyUpdatedReport();
 
         $response = new Response($content);
