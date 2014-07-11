@@ -1,25 +1,25 @@
-.main-block #menu {
+.error-block #menu {
     padding-left:323px;
     height:16px;
     margin-bottom:-15px;
 }
 
-.main-block .button {
+.error-block .button {
     font-size:14px;
     padding:3px 8px;
 }
-.main-block {
+.error-block {
     width:900px;
     margin:50px auto;
 }
 
-.main-block article {
+.error-block article {
     margin-bottom:20px;
     float:left;
     width:100%;
 }
 
-.main-block article .map-container {
+.error-block article .map-container {
     float:left;
     width:300px;
     height:300px;
@@ -34,7 +34,7 @@
     box-shadow:0px 0px 5px #ccc;
 }
 
-.main-block article .map-container img {
+.error-block article .map-container img {
     width:300px;
     height:300px;
 
@@ -43,7 +43,7 @@
     border-radius:150px;
 }
 
-.main-block article section {
+.error-block article section {
     margin-top:25px;
     width:560px;
     min-height:245px;
@@ -61,7 +61,7 @@
     box-shadow:0px 0px 2px #ccc;
 }
 
-.main-block article section:after {
+.error-block article section:after {
     content:'';
     display:block;
     position:absolute;
@@ -75,7 +75,7 @@
     background:#fff;
 }
 
-.main-block article section:before {
+.error-block article section:before {
     content:'';
     display:block;
     position:absolute;
@@ -96,16 +96,16 @@
     box-shadow:0px 0px 2px #ccc;
 }
 
-.main-block article section {
+.error-block article section {
     font-family:Tahoma;
 }
 
-.main-block article section * {
+.error-block article section * {
     z-index:2;
     position:relative;
 }
 
-.main-block article section h1 {
+.error-block article section h1 {
     margin:0px;
     padding:0px;
     padding-bottom:5px;
@@ -126,37 +126,37 @@
     padding-bottom:15px;
 }
 
-.main-block article section dt {
+.error-block article section dt {
     font-size:24px;
     color:#363636;
     margin-bottom:10px;
     font-family:Arial;
 }
 
-.main-block article section dd {
+.error-block article section dd {
     margin-bottom:15px;
     margin-left:50px;
     color:#666666;
     font-weight:normal !important;
 }
 
-.main-block ul.users {
+.error-block ul.users {
     list-style:none;
     margin:0px;
     padding:0px;
     padding-left:0px;
     line-height:28px;
 }
-.main-block ul.users li {
+.error-block ul.users li {
     float:left;
     padding-right:10px;
     color:#000;
 }
 
-.main-block ul.users li:after {
+.error-block ul.users li:after {
     content:',';
 }
 
-.main-block ul.users li:last-child:after {
+.error-block ul.users li:last-child:after {
     display:none;
 }

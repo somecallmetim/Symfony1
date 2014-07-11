@@ -221,3 +221,12 @@ e7e928,127.0.0.1,POST,http://events.l/13/attend.json,1405100224,
 8ae331,127.0.0.1,GET,http://events.l/darth-s-birthday-party/show,1405100233,
 dd6ec0,127.0.0.1,POST,http://events.l/13/unattend.json,1405100236,
 d9c2fe,127.0.0.1,GET,http://events.l/,1405100239,
+88fc93,127.0.0.1,GET,http://events.l/logout,1405101409,
+ce49fb,127.0.0.1,GET,http://events.l/,1405101409,
+afd909,127.0.0.1,GET,http://events.l/register,1405101410,
+cce29f,127.0.0.1,GET,http://events.l/,1405101423,
+5b851e,127.0.0.1,GET,http://events.l/app.dev/,1405101429,fd5018
+fd5018,127.0.0.1,GET,http://events.l/app.dev/,1405101429,
+3757e8,127.0.0.1,GET,http://events.l/app.dev,1405101431,5e7ea4
+5e7ea4,127.0.0.1,GET,http://events.l/app.dev,1405101431,
+975a57,127.0.0.1,GET,http://events.l/,1405101454,
