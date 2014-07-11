@@ -602,6 +602,11 @@
     <parameter key="console.command.ids" type="collection"/>
   </parameters>
   <services>
+    <service id="yoda_user.listener.user_listener" class="Yoda\UserBundle\Listener\UserListener">
+      <tag name="doctrine.event_listener" event="prePersist"/>
+      <tag name="doctrine.event_listener" event="preUpdate"/>
+      <argument type="service" id="security.encoder_factory"/>
+    </service>
     <service id="yoda_event.controller.exception_controller" class="Yoda\EventBundle\Controller\ExceptionController">
       <argument type="service" id="twig"/>
       <argument>true</argument>
@@ -2401,7 +2406,7 @@
         </argument>
         <argument type="service">
           <service class="Symfony\Component\Security\Core\Authentication\Provider\AnonymousAuthenticationProvider" public="false">
-            <argument>53bb5d6650c5a</argument>
+            <argument>53c01d568b4bb</argument>
           </service>
         </argument>
       </argument>
@@ -2677,7 +2682,7 @@
         <argument type="service">
           <service class="Symfony\Component\Security\Http\Firewall\AnonymousAuthenticationListener" public="false">
             <argument type="service" id="security.context"/>
-            <argument>53bb5d6650c5a</argument>
+            <argument>53c01d568b4bb</argument>
             <argument type="service" id="monolog.logger.security" on-invalid="null"/>
           </service>
         </argument>
@@ -3109,6 +3114,13 @@
                 </call>
               </service>
             </argument>
+          </call>
+          <call method="addEventListener">
+            <argument type="collection">
+              <argument>prePersist</argument>
+              <argument>preUpdate</argument>
+            </argument>
+            <argument type="service" id="yoda_user.listener.user_listener"/>
           </call>
         </service>
       </argument>
